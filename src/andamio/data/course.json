@@ -26,7 +26,7 @@
       "slts": [
         {
           "id": "102.1",
-          "slt": "I know the ways that people can participate in Andamio."
+          "slt": "I know the roles participants can play in Andamio."
         },
         {
           "id": "102.2",
@@ -34,7 +34,7 @@
         },
         {
           "id": "102.3",
-          "slt": "I can leave a comment on the Andamio paper."
+          "slt": "I can leave a comment on the Andamio whitepaper."
         },
         {
           "id": "102.4",
@@ -56,7 +56,7 @@
         },
         {
           "id": "103.3",
-          "slt": "I understand how Andamio flexibly combines education, onboarding, and organizational management."
+          "slt": "I can view prerequisites for Learners and Contributors in Andamio."
         }
       ]
     },
