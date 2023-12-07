@@ -19,6 +19,9 @@ const GlobalNav = () => (
           <Link href={"/course"}>{`Start ${andamioConfig.title} Course`}</Link>
         </li>
         <li>
+          <Link href="/catalyst">Catalyst Fund 11</Link>
+        </li>
+        <li>
           <Link href={"/course-management/roles/learner/dashboard"}>Learner Dashboard</Link>
         </li>
         {process.env.NEXT_PUBLIC_EXPERIMENTAL_FEATURES?.split(",").includes("cm") && (

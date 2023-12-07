@@ -34,9 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Providers>
           <div className="flex flex-col bg-test-1 bg-cover bg-fixed">
             <GlobalNav />
-            {children}
-            <GlobalFooter />
+            <div className="min-h-[80vh]">{children}</div>
           </div>
+          <GlobalFooter />
         </Providers>
       </body>
     </html>
