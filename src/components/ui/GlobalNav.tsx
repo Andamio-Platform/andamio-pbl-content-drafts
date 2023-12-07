@@ -15,11 +15,11 @@ const GlobalNav = () => (
         </Link>
       </div>
       <ul className="menu menu-horizontal px-1">
-        <li>
-          <Link href={"/course"}>{`Start ${andamioConfig.title} Course`}</Link>
+        <li className="text-info font-bold">
+          <Link href="/catalyst">Catalyst Fund 11</Link>
         </li>
         <li>
-          <Link href="/catalyst">Catalyst Fund 11</Link>
+          <Link href={"/course"}>{`Start ${andamioConfig.title} Course`}</Link>
         </li>
         <li>
           <Link href={"/course-management/roles/learner/dashboard"}>Learner Dashboard</Link>
