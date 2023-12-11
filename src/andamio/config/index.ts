@@ -57,8 +57,8 @@ export const andamioConfig: AndamioConfig<
     },
     contributorReference: contributorReference,
     escrows: [
-      escrowDecider1,
-      escrowDecider2,
+      // escrowDecider1,
+      // escrowDecider2,
       escrowAndamioCircle,
       escrowAdminCircle,
       escrowBusinessCircle,
