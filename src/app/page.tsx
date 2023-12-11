@@ -96,14 +96,14 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="text-6xl text-center pt-24 pb-12 text-primary font-bold font-mono">Why Andamio?</div>
-      <div className="grid grid-cols-8 w-3/4 mx-auto">
+      <div className="text-6xl text-center pt-24 pb-12 text-primary font-bold font-mono">Andamio Principles</div>
+      <div className="grid grid-cols-8 w-3/4 lg:w-2/3 mx-auto">
         <div className="col-start-1 col-span-7">
           <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
             <div className="col-span-1 flex justify-center">
               <Image src="/icons/human-network-1-primary.png" width={200} height={200} alt="people-network" />
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 px-10">
               <h2 className="text-3xl font-mono font-bold pb-5">From Community to Collaboration</h2>
               <p className="">
                 Andamio supports communmities to set clear intentions for onboarding and engagement. You need
@@ -114,7 +114,7 @@ export default function HomePage() {
         </div>
         <div className="col-start-2 col-span-7">
           <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-2">
+            <div className="col-span-2 px-10">
               <h2 className="text-3xl font-mono font-bold pb-5">From Local Collaboration to Global Contribution</h2>
               <p className="">
                 Any organization using Andamio can hook up to the network and share learning credentials. Because
@@ -129,21 +129,7 @@ export default function HomePage() {
         </div>
         <div className="col-start-1 col-span-7">
           <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-1 flex justify-center">
-              <Image src="/icons/scaffolding-primary.png" width={200} height={200} alt="scaffolding" />
-            </div>
-            <div className="col-span-2">
-              <h2 className="text-3xl font-mono font-bold pb-5">Turn Your Docs into a Learning Journey</h2>
-              <p className="">
-                Any existing markdown documentation looks great in Andamio. Just drop your Markdown into an Andamio
-                instance and publish.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-start-2 col-span-7">
-          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-2">
+            <div className="col-span-2 px-10">
               <h2 className="text-3xl font-mono font-bold pb-5">Don&apos;t Trust, Verify</h2>
               <p className="">
                 Learners can validate that organizations are teaching what they promised. Anyone can verify that
@@ -153,6 +139,20 @@ export default function HomePage() {
             </div>
             <div className="col-span-1 flex justify-center">
               <Image src="/icons/validate-primary.png" width={200} height={200} alt="validate" />
+            </div>
+          </div>
+        </div>
+        <div className="col-start-2 col-span-7">
+          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
+            <div className="col-span-1 flex justify-center">
+              <Image src="/icons/scaffolding-primary.png" width={200} height={200} alt="scaffolding" />
+            </div>
+            <div className="col-span-2 px-10">
+              <h2 className="text-3xl font-mono font-bold pb-5">Turn Your Docs into a Learning Journey</h2>
+              <p className="">
+                Any existing markdown documentation looks great in Andamio. Just drop your Markdown into an Andamio
+                instance and publish.
+              </p>
             </div>
           </div>
         </div>
