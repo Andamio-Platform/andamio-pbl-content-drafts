@@ -14,8 +14,9 @@ import CommitModal from "../../../components/modals/projects/CommitModal";
 import DistributeModal from "../../../components/modals/projects/DistributeModal";
 import ManageAddProjectModal from "../../../components/modals/projects/ManageAddProjectModal";
 import { redirect } from "next/navigation";
+import { cache } from "react";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 10; // revalidate the data at most every 10s`
 
 async function getNotionLink(
   project: ProjectData
@@ -76,7 +77,7 @@ async function getNotionLink(
   }
 }
 
-export default async function KanbanBoard() {
+export default cache(async function KanbanBoard() {
   if (
     !process.env.NEXT_PUBLIC_EXPERIMENTAL_FEATURES?.split(",").includes(
       "kanbanboard"
@@ -173,4 +174,4 @@ export default async function KanbanBoard() {
       </div>
     </main>
   );
-}
+})
