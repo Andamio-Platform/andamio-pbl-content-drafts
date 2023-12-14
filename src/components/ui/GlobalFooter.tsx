@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function GlobalFooter() {
   return (
@@ -22,6 +23,10 @@ export default function GlobalFooter() {
         <a className="link link-hover">gimbalabs.com</a>
         <a className="link link-hover">Discord</a>
         <a className="link link-hover">Twitter</a>
+      </nav>
+      <nav>
+        <header className="footer-title">FAQs</header>
+        <Link href={'/contributor-platform/faq'} className="link link-hover">Contributor Platform</Link>
       </nav>
     </footer>
   );

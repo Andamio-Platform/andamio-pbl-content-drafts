@@ -106,8 +106,13 @@ export default cache(async function KanbanBoard() {
 
   return (
     <main>
-      <div className="flex justify-center items-center m-10 w-full">
-        <ManageAddProjectModal />
+      <div className="flex flex-col justify-center items-center m-10 w-full">
+        <div>
+          <Link className="text-black mb-5" href={"faq"}>Check out the contributors platform FAQs</Link>
+        </div>
+        <div>
+          <ManageAddProjectModal />
+        </div>
       </div>
       <div className="grid grid-cols-2 p-5 mx-10">
         <div className="mx-10">
@@ -174,4 +179,4 @@ export default cache(async function KanbanBoard() {
       </div>
     </main>
   );
-})
+});
