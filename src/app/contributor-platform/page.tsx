@@ -27,13 +27,10 @@ export default cache(async function ContributorPlatform() {
             <div className="mb-3 card bg-primary text-primary-content p-10 w-full mx-auto font-mono grid grid-cols-1">
               <div className="col-span-1">
                 <h1 className="pb-5 text-2xl">
-                  Kanban Board &lt;experimental&gt;
+                  Kanban Board View
                 </h1>
               </div>
               <div className="col-span-1">
-                <header className="text-xl text-info py-2">
-                  Test this out
-                </header>
                 <ul className="text-sm uppercase">
                   <li className="py-1">
                     <Link href="/contributor-platform/kanban-board">Link</Link>
