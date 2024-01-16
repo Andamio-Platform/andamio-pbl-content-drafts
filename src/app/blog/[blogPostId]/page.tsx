@@ -3,6 +3,7 @@ import { TransformedPageContent } from "../../course/module/[moduleId]/[modulePa
 import { getBlogPageContent } from "../../../lib/blogposts";
 import Markdoc from "@markdoc/markdoc";
 import { parseMarkdocFrontmatter } from "../../../utils/markdown";
+import styles from "./Blog.module.css";
 
 export type Props = {
   blogPostId: string;
@@ -37,11 +38,12 @@ export default function Page({ params }: { params: Props }) {
   return (
     <div className="bg-primary text-primary-content p-5 m-5 shadow-lg grid grid-cols-3">
       <div className="p-5">
-        <h1 className="text-6xl">{data?.title}</h1>
+        <h1 className="text-4xl leading-[4rem] font-bold">{data?.title}</h1>
+        <h3 className="text-xl leading-[4rem]">{data?.date}</h3>
+        <p>{data?.author}</p>
       </div>
       <div className="col-span-2 p-5">
-        {<TransformedPageContent content={content} />}
-        <h1>{data?.author}</h1>
+        <div className={styles.blogPostContainer}>{<TransformedPageContent content={content} />}</div>
       </div>
     </div>
   );

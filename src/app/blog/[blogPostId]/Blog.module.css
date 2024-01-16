@@ -1,0 +1,65 @@
+/* FIX ME */
+
+.blogPostContainer {
+  @apply pb-5
+}
+
+.blogPostContainer h1 {
+  @apply text-3xl my-5 font-bold text-info
+}
+
+.blogPostContainer h2 {
+  @apply text-2xl my-2 text-info
+}
+
+.blogPostContainer h3 {
+  @apply text-xl my-2 text-info
+}
+
+.blogPostContainer h4 {
+  @apply text-lg mt-3 mb-1 text-info font-bold
+}
+
+.blogPostContainer p {
+  @apply py-2 text-primary-content
+}
+
+.blogPostContainer ul {
+  @apply py-1 text-primary-content pl-2 ml-2 list-disc
+}
+
+.blogPostContainer ol {
+  @apply py-1 text-primary-content pl-2 ml-2 list-decimal
+}
+
+.blogPostContainer li {
+  @apply py-1 text-primary-content pl-2 ml-2
+}
+
+.blogPostContainer a {
+  @apply font-semibold text-blue-800 hover:text-blue-700
+}
+
+.blogPostContainer table {
+  @apply border border-accent
+}
+
+.blogPostContainer th {
+  @apply border border-accent p-2
+}
+
+.blogPostContainer td {
+  @apply border border-accent p-2
+}
+
+.blogPostContainer code {
+  @apply p-[1px] bg-primary text-primary-content rounded-sm
+}
+
+.blogPostContainer blockquote {
+  @apply bg-gray-300 p-3 border-l-[15px] border-info
+}
+
+.blogPostContainer .slt {
+  @apply bg-primary text-primary-content font-bold text-lg mb-3 p-3 align-middle
+}
