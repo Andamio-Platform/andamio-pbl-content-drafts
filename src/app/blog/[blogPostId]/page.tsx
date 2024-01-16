@@ -39,7 +39,7 @@ export default function Page({ params }: { params: Props }) {
     <div className="bg-primary text-primary-content p-5 m-5 shadow-lg grid grid-cols-3">
       <div className="p-5">
         <h1 className="text-4xl leading-[4rem] font-bold">{data?.title}</h1>
-        <h3 className="text-xl leading-[4rem]">{data?.date}</h3>
+        {/* <h3 className="text-xl leading-[4rem]">{data?.date}</h3> */}
         <p>{data?.author}</p>
       </div>
       <div className="col-span-2 p-5">
