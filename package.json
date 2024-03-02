@@ -8,11 +8,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3002",
     "lint": "next lint"
   },
   "dependencies": {
-    "@andamiojs/core": "latest",
+    "@andamiojs/core": "0.0.26",
     "@babel/core": "7.0.0",
     "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",

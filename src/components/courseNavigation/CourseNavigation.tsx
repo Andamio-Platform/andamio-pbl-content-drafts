@@ -55,21 +55,25 @@ export default function CourseNavigation({ sortedPaths }: { sortedPaths: string[
     }
   }
 
+  console.log("prepath:", prePath);
+  console.log("nextpath:", nextPath);
+
   return (
-    <div className="w-full mx-auto mb-10 font-mono" key={index}>
-      <div className="flex flex-row justify-between">
-        {prePath ? (
-          <div className="btn btn-info hover:scale-105">
-            <Link href={`/course/module/${prePath}`}>&lt;&lt; {prePathString}</Link>
-          </div>
-        ) : null}
-        {/* {currentPath && <div className="join-item btn btn-primary">Lesson {currentPath}</div>} */}
-        {nextPath ? (
-          <div className="btn btn-info hover:scale-105">
-            <Link href={`/course/module/${nextPath}`}>{nextPathString} &gt;&gt;</Link>
-          </div>
-        ) : null}
+    <nav className="flex flex-row space-x-24">
+      <div key="back">
+        {prePath && (
+          <Link href={`/course/module/${prePath}`}>
+            <div className="btn btn-info hover:scale-105">&lt;&lt; {prePathString}</div>
+          </Link>
+        )}
       </div>
-    </div>
+      <div key="fwd">
+        {nextPath && (
+          <Link href={`/course/module/${nextPath}`}>
+            <div className="btn btn-info hover:scale-105">{nextPathString} &gt;&gt;</div>
+          </Link>
+        )}
+      </div>
+    </nav>
   );
 }

@@ -107,8 +107,11 @@ export default cache(async function KanbanBoard() {
   return (
     <main>
       <div className="flex flex-col justify-center items-center m-10 w-full">
-        <div>
-          <Link className="text-black mb-5" href={"faq"}>Check out the contributors platform FAQs</Link>
+        <div className="mb-5">
+          <Link className="text-black" href="/apm-preprod-sprint.html">January Sprint - Preprod Testing</Link>
+        </div>
+        <div className="mb-5">
+          <Link className="text-black" href={"faq"}>Check out the contributors platform FAQs</Link>
         </div>
         <div>
           <ManageAddProjectModal />

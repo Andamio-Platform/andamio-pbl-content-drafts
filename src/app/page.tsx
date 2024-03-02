@@ -37,10 +37,16 @@ export default function HomePage() {
                 </span>
               </a>
             </div>
-            <h1 className="text-6xl my-10 font-bold leading-[5rem] text-secondary-content">
-              Commit. Collaborate. Contribute.
+            <h1 className="text-4xl md:text-6xl my-5 md:my-10 font-bold md:leading-[5rem] text-secondary-content">
+              Commit.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-secondary-content">
+            <h1 className="text-4xl md:text-6xl my-5 md:my-10 font-bold md:leading-[5rem] text-secondary-content">
+              Collaborate.
+            </h1>
+            <h1 className="text-4xl md:text-6xl my-5 md:my-10 font-bold md:leading-[5rem] text-secondary-content">
+              Contribute.
+            </h1>
+            <p className="mt-6 text-base md:text-lg leading-8 text-secondary-content">
               Andamio is a Learning and Contribution Management Platform built on Web3, and decentralized by design.
             </p>
             <div className="flex flex-row gap-5 my-5">
@@ -67,17 +73,17 @@ export default function HomePage() {
         </div>
       </div>
       <div className="bg-primary pt-24 pb-6">
-        <div className="mx-auto w-3/4 px-6 lg:px-8">
+        <div className="mx-auto w-11/12 md:w-3/4 px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-16 gap-y-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <div className="row-span-3">
               <h2 className="text-base font-semibold leading-7 text-info">Project-Based Learning</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-primary-content sm:text-4xl">
+              <p className="mt-2 text-xl md:text-3xl font-bold tracking-tight text-primary-content sm:text-4xl">
                 For Contributors and Organizations
               </p>
-              <p className="my-6 text-base leading-7 text-primary-content">
+              <p className="my-6 text-sm md:text-base leading-7 text-primary-content">
                 Andamio is built to push power to the edges by supporting people to learn new things, by doing things.
               </p>
-              <img className="h-80 rounded-xl shadow-xl" src="/andamio.png" alt="Andamio" />
+              <img className="h-32 md:h-80 rounded-xl shadow-xl" src="/andamio.png" alt="Andamio" />
             </div>
             <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-primary-content sm:grid-cols-2 lg:gap-y-16">
               {features.map((feature) => (
@@ -93,27 +99,27 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="text-4xl text-center pt-24 pb-12 text-primary font-bold">Who is Andamio Built For?</div>
-      <div className="w-3/4 lg:w-2/3 mx-auto">
+      <div className="text-4xl text-center pt-10 pb-5 md:pt-24 md:pb-12 text-primary font-bold">Who is Andamio Built For?</div>
+      <div className="w-11/12 md:w-3/4 lg:w-2/3 mx-auto">
         <div className="">
-          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-2 px-10">
+          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-1 md:px-5 py-10 grid grid-cols-1 md:grid-cols-3 border border-primary">
+            <div className="col-span-2 px-2 md:px-10">
               <h2 className="text-3xl font-bold pb-5">Learners</h2>
               <p className="">
                 Andamio is built for people who want to learn new skills and contribute to real projects. Learners can move between organizations, and can validate that organizations are teaching what they promised.
               </p>
             </div>
-            <div className="col-span-1 flex justify-center">
+            <div className="col-span-1 flex justify-center w-1/3 md:w-full mx-auto">
               <Image src="/icons/global-2-primary.png" width={200} height={200} alt="global-network" />
             </div>
           </div>
         </div>
         <div className="">
-          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-1 flex justify-center">
+          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-1 md:px-5 py-10 grid grid-cols-1 md:grid-cols-3 border border-primary">
+            <div className="col-span-1 flex justify-center w-1/3 md:w-full mx-auto">
               <Image src="/icons/scaffolding-primary.png" width={200} height={200} alt="scaffolding" />
             </div>
-            <div className="col-span-2 px-10">
+            <div className="col-span-2 px-2 md:px-10">
               <h2 className="text-3xl font-bold pb-5">Contributors</h2>
               <p className="">
                 When learners are ready to contribute, Andamio provides a robust set of tools for validating credentials and supporting new collaborations to take root.
@@ -122,11 +128,11 @@ export default function HomePage() {
           </div>
         </div>
         <div className="">
-          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-1 flex justify-center">
+          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-1 md:px-5 py-10 grid grid-cols-1 md:grid-cols-3 border border-primary">
+            <div className="col-span-1 flex justify-center w-1/3 md:w-full mx-auto">
               <Image src="/icons/human-network-1-primary.png" width={200} height={200} alt="people-network" />
             </div>
-            <div className="col-span-2 px-10">
+            <div className="col-span-2 px-2 md:px-10">
               <h2 className="text-3xl font-bold pb-5">Organizations</h2>
               <p className="">
                 Andamio supports organizations of all sizes to set clear intentions for onboarding and contributor engagement.
@@ -135,14 +141,14 @@ export default function HomePage() {
           </div>
         </div>
         <div className="">
-          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-5 py-10 grid grid-cols-3 border border-primary">
-            <div className="col-span-2 px-10">
+          <div className="card bg-secondary text-secondary-content mx-auto my-10 shadow-xl px-1 md:px-5 py-10 grid grid-cols-1 md:grid-cols-3 border border-primary">
+            <div className="col-span-2 px-2 md:px-10">
               <h2 className="text-3xl font-bold pb-5">Teachers</h2>
               <p className="">
                 Do you have a skill to teach or an organization you want to build? Start <Link href="/course">the Andamio Project-Based Learning course</Link> to get a feel for how Andamio works.
               </p>
             </div>
-            <div className="col-span-1 flex justify-center">
+            <div className="col-span-1 flex justify-center w-1/3 md:w-full mx-auto">
               <Image src="/icons/validate-primary.png" width={200} height={200} alt="validate" />
             </div>
           </div>
