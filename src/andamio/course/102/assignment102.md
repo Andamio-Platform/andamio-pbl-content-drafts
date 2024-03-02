@@ -4,7 +4,7 @@
     "slt": ["102.1", "102.2", "102.3"],
     "type": "Assignment",
     "description": "Leave a Comment or Say Hello!",
-    "videoURL": "https://www.youtube.com/watch?v=fZEDEWyiuZA",
+    "videoURL": "",
     "lastEdited": "2023-12-04",
     "author": "Andamio Team"
 }

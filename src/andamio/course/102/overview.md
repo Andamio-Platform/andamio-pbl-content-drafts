@@ -4,7 +4,7 @@
     "slt": [],
     "type": "ModuleOverview",
     "description": "About this module",
-    "videoURL": "https://www.youtube.com/watch?v=fZEDEWyiuZA",
+    "videoURL": "",
     "lastEdited": "2023-09-21",
     "author": "Andamio Team"
 }
