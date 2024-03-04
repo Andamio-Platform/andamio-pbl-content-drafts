@@ -1,6 +1,6 @@
 ---
 {
-    "title": "Assignment 101",
+    "title": "Assignment 101: Make a Commitment",
     "slt": ["101.1", "101.2", "101.3"],
     "type": "Assignment",
     "description": "Commit to Your First Assignment",

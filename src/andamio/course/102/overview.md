@@ -1,11 +1,11 @@
 ---
 {
-    "title": "Module 102: What is Andamio?",
+    "title": "Module 102: How Assignments Work",
     "slt": [],
     "type": "ModuleOverview",
     "description": "About this module",
     "videoURL": "",
-    "lastEdited": "2023-09-21",
+    "lastEdited": "2024-03-04",
     "author": "Andamio Team"
 }
 ---

@@ -1,6 +1,6 @@
 ---
 {
-    "title": "Assignment 103",
+    "title": "Assignment 103: Commit to a Project",
     "slt": ["103.1"],
     "type": "Assignment",
     "description": "",

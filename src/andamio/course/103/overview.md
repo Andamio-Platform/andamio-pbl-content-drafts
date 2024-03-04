@@ -1,22 +1,19 @@
 ---
 {
-    "title": "Module 103 Overview",
+    "title": "Module 103: Andamio Contributor Platform",
     "slt": ["103.1"],
     "type": "ModuleOverview",
     "description": "",
     "videoURL": "",
-    "lastEdited": "2023-12-04",
+    "lastEdited": "2024-03-04",
     "author": "Andamio Team"
 }
 ---
 
-"103.1": "I can mint a Contributor Token in Andamio."
-"103.2": "I can commit to a Project in Andamio."
-"103.3": "I can view prerequisites for Learners and Contributors in Andamio."
+In [Module 101](), you enrolled in this Course as a Learner.
 
-What if Book Club + Reading List = Tokenomics planning were the first way that people could Contribute?
+Our goal is to support you to become a Contributor. Andamio is built to support Learners to become Contributors to impactful, collaborative projects.
 
-A precedent is set with Emergent Strategy, although we never got to the "tokenomics" part.
+Now you can also mint an Andamio Contributor Token.
 
-Assignment:
-- Read a book and share in Discord. Yes, we're going to pay you to read!
+(This process is changing right now. This page is a placeholder.)

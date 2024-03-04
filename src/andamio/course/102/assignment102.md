@@ -1,6 +1,6 @@
 ---
 {
-    "title": "Assignment 102",
+    "title": "Assignment 102: Submit Evidence",
     "slt": ["102.1", "102.2", "102.3"],
     "type": "Assignment",
     "description": "Leave a Comment or Say Hello!",
@@ -17,4 +17,4 @@ The best way to learn about and participate in Andamio is to complete this cours
 At the end of this course, you'll earn a Contributor Token that allows you to start contributing directly to Andamio.
 
 ## Assignment + Evidence
-For now, it's time to complete your second Assignment. 
+For now, it's time to complete your second Assignment.

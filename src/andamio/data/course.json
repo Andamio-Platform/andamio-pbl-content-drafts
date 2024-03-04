@@ -4,41 +4,49 @@
   "modules": [
     {
       "id": "101",
-      "title": "How to Learn in Andamio",
+      "title": "Getting Started with Andamio",
       "slts": [
         {
           "id": "101.1",
-          "slt": "I can mint an Andamio Learner Token."
+          "slt": "I can mint an Andamio Access Token."
         },
         {
           "id": "101.2",
-          "slt": "I can commit to an Assignment."
+          "slt": "I can view the global state of my access token."
         },
         {
           "id": "101.3",
-          "slt": "I can see an on-chain record of my completed Assignment."
+          "slt": "I know the roles that can participants can take in Andamio."
+        },
+        {
+          "id": "101.4",
+          "slt": "I can use my access token to enroll in a Course on Andamio."
+        },
+        {
+          "id": "101.5",
+          "slt": "I can commit to an Assignment."
         }
       ]
     },
     {
       "id": "102",
-      "title": "What is Andamio?",
+      "title": "How Assignments Work",
       "slts": [
         {
           "id": "102.1",
-          "slt": "I know the roles participants can play in Andamio."
+          "slt": "I understand how Courses, Modules, and Student Learning Targets are organized in Andamio."
         },
         {
           "id": "102.2",
-          "slt": "I know where to learn more about Andamio."
+          "slt": "I know Assignments are used Andamio PBL."
         },
         {
           "id": "102.3",
-          "slt": "I can leave a comment on the Andamio whitepaper."
+          "slt": "I can submit evidence for an Assignment."
         },
         {
           "id": "102.4",
-          "slt": "I can participate in the Andamio Community."
+          "slt": "I can say hello in Discord / leave a comment / fill out a form."
         }
       ]
     },
@@ -56,29 +64,81 @@
         },
         {
           "id": "103.3",
-          "slt": "I can view prerequisites for Learners and Contributors in Andamio."
+          "slt": "I can receive rewards for completing a Project."
+        },
+        {
+          "id": "103.4",
+          "slt": "I can view my record of completed Projects."
         }
       ]
     },
     {
       "id": "201",
-      "title": "How to Teach with Andamio",
+      "title": "How to Create a Course in Andamio",
       "slts": [
         {
           "id": "201.1",
-          "slt": "I can write a Student Learning Target."
+          "slt": "I can create a new Course in the Andamio Course Management portal."
         },
         {
           "id": "201.2",
-          "slt": "I can use potential Assignments to write supporting SLTs."
+          "slt": "I can create a new Module in an Andamio PBL Course."
         },
         {
           "id": "201.3",
-          "slt": "I can organize Student Learning Targets into Course Modules."
+          "slt": "I can write Student Learning Targets for a Course Module."
         },
         {
           "id": "201.4",
-          "slt": "I can write and publish a PBL Course Contract."
+          "slt": "I can create an Assignment that provides evidence of student learning."
+        },
+        {
+          "id": "201.5",
+          "slt": "I can write Lessons for Student Learning Target in a Module."
+        },
+        {
+          "id": "201.6",
+          "slt": "I can publish a PBL Course in Andamio."
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "title": "How to Create a Contributor Treasury",
+      "slts": [
+        {
+          "id": "202.1",
+          "slt": "I can initialize a Contributor Treasury."
+        },
+        {
+          "id": "202.2",
+          "slt": "I can add funds to the treasury."
+        },
+        {
+          "id": "202.3",
+          "slt": "I can list projects in the treasury."
+        },
+        {
+          "id": "202.4",
+          "slt": "I can assign Reviewers to a treasury instance."
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "title": "How to Create a Contributor Treasury",
+      "slts": [
+        {
+          "id": "203.1",
+          "slt": "I can view prerequisites for Learners and Contributors in Andamio"
+        },
+        {
+          "id": "203.2",
+          "slt": "As a Course Creator, I can add a prerequisite to a Course Module."
+        },
+        {
+          "id": "203.3",
+          "slt": "As a Treasury Administrator, I can add a prerequisite to a Project."
         }
       ]
     }

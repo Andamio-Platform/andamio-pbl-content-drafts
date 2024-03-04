@@ -9,3 +9,5 @@
     "author": "Andamio Team"
 }
 ---
+
+Here is how to build a course.

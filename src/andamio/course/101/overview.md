@@ -1,6 +1,6 @@
 ---
 {
-    "title": "Module 101: How to Learn in Andamio",
+    "title": "Module 101: Getting Started with Andamio",
     "slt": [],
     "type": "ModuleOverview",
     "description": "About this module",
@@ -18,4 +18,26 @@ If you have never taken these steps before, learn more at the following links:
 1. [Connect a Wallet to Cardano Preproduction Testnet](https://plutuspbl.io/modules/100/1001)
 2. [Get Test Ada from Faucet](https://plutuspbl.io/modules/100/1002)
 
-It takes about 30 minutes to complete this module. When you're done, you'll be using Andamio on Cardano's Preproduction Testnet.
+It takes about 30 minutes to complete this module. When you're done, you'll be officially enrolled in Andamio PBL.
+
+
+# Where to learn more about Andamio
+
+## This course is the best place to start!
+You're already in the right place.
+
+But if you want to learn in another way, we'll keep this page up to date with other resources
+
+## Technical Docs:
+- AndamioJS
+- AndamioJS Docs
+- Andamio Starter
+
+## Discord
+
+## Twitter
+
+## YouTube
+
+## Whitepaper
+In the next section
