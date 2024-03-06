@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { andamioConfig } from "../../../../../andamio/config";
 
 export default function CourseBreadcrumb() {
 
@@ -9,7 +8,7 @@ export default function CourseBreadcrumb() {
         <ul>
           <li>
             <Link href="/course" className="btn btn-sm btn-info text-sm uppercase">
-              {andamioConfig.title}
+              Andamio PBL
             </Link>
           </li>
         </ul>

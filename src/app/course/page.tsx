@@ -2,7 +2,6 @@ import LessonList from "./LessonList";
 import { Suspense } from "react";
 import Loading from "../Loading";
 import styles from "./CoursePage.module.css";
-import CourseOutline from "./CourseOutline";
 import ModuleBreadcrumbs from "./module/[moduleId]/[modulePage]/ModuleBreadcrumbs";
 import CourseOutlineOffChain from "./CourseOutlineOffChain";
 

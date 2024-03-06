@@ -1,13 +1,12 @@
 import { getModuleOverviewData } from "../../lib/getModuleOverviewData";
 import Link from "next/link";
-import { andamioConfig } from "../../andamio/config";
 
 export default async function LessonList() {
   const moduleOverviewValues = await getModuleOverviewData();
 
   return (
     <div className="card bg-primary text-primary-content shadow-xl p-5">
-      <h1 className="py-5">{andamioConfig.title} Course Index</h1>
+      <h1 className="py-5">Andamio PBL Course Index</h1>
       <div className="grid grid-cols-2 gap-5">
         {moduleOverviewValues.modules.map((module, index: number) => (
           <div className="m-5">

@@ -1,19 +1,11 @@
 import { CourseModule, CourseReferenceInfo, hashCourseModule, ModuleOverview, SLT } from "@andamiojs/core";
 import Image from "next/image";
 import Link from "next/link";
-import AddLearnerPolicyIDModal from "../../components/modals/course/AddLearnerPolicyIDModal";
-import BurnCourseModuleTokenModal from "../../components/modals/course/BurnCourseModuleTokenModal";
-import CommitToAssignmentModal from "../../components/modals/course/CommitToAssignmentModal";
-import MintModuleTokenModal from "../../components/modals/course/MintModuleTokenModal";
-import getAssignment from "./utils/getAssignment";
-import getOnchainCourseModule from "./utils/getOnchainCourseModule";
-import getPublishedCourseContent from "./utils/getPublishedCourseContent";
 
 export default function CourseModuleDetailsCardOffChain(props: {
   courseJSON: CourseModule;
   publishedContent: ModuleOverview[];
 }) {
-  const modulePublished = getPublishedCourseContent(props.courseJSON, props.publishedContent);
 
   return (
     <div

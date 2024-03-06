@@ -4,7 +4,6 @@ import {
   queryCourseReferenceInfo,
 } from "@andamiojs/core";
 import courseOutline from "../../andamio/data/course.json";
-import { andamioConfig } from "../../andamio/config";
 import CourseModuleDetailsCardOffChain from "./CourseModuleDetailsCardOffChain";
 import { getModuleOverviewData } from "../../lib/getModuleOverviewData";
 

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { getModuleTitle } from "../../../../../lib/course";
 import { LMSObjectMetadata } from "@andamiojs/core";
-import { andamioConfig } from "../../../../../andamio/config";
 
 export default function ModuleBreadcrumbs({
   moduleId,
@@ -17,7 +16,7 @@ export default function ModuleBreadcrumbs({
         <ul>
           <li>
             <Link href="/course" className="btn btn-sm btn-info text-sm uppercase">
-              {andamioConfig.title}
+              Andamio PBL
             </Link>
           </li>
           {moduleId && frontmatter && (
